@@ -9,14 +9,16 @@ output: github_document
 Insurance companies use pricing (or rate making) models to determine premiums rates. A rate is an estimate of the expected value of a future cost. In insurance, rates are used to cover the expected cost of loss events. There are three primary regulations governing how insurers set these rates:
 
 1.) they must be *fair* compared to the risk
+
 2.) they must be *adequate* to maintain insurer solvency
+
 3.) they are *not discriminatory* against members of an underwriting class with similar risk profiles
 
 Another important consideration in designing models is the interpretability and underlying statistical basis on which it operates. A Casualty Actuarial and Statistical Task Force White Paper[1] states, "The Task Force recommends that rating plans in which insureds are grouped into homogeneous rating classes should not be so granular that resulting rating classes have little actuarial or statistical reliability. The use of sophisticated data analysis to develop finely tuned methodologies with a multiplicity of possible rating cells is not, in and of itself, a violation of rating laws as long as the rating classes and rating factors are cost-based."
 
 Given the various constraints imposed on insurance modeling, generalized linear models are frequently used. This report will demonstrate examples of using linear models to interpret and predict auto bodily injury losses. The dataset is provided in the "insuranceData" package.
 
-Description of the variables are as follows[3]: 
+Description of the variables[3] are as follows: 
 - CASENUM: case number to identify the claim
 - ATTORNEY: whether the claimant is represented by an attorney (=1 if yes and =2 if no)
 - CLMSEX: claimant's gender (=1 if male and =2 if female)
@@ -122,6 +124,8 @@ write.csv(data, file="ABI_data.csv", row.names=FALSE)
 ```
 
 ## Sources
-[1] http://www.naic.org/documents/committees\_c\_catf\_related\_price_optimization\_white\_paper.pdf
+[1] http://www.naic.org/documents/committees_c_catf_related_price_optimization_white_paper.pdf
+
 [2] https://insidebigdata.com/2014/11/09/ask-data-scientist-importance-exploratory-data-analysis/
+
 [3] https://cran.r-project.org/web/packages/insuranceData/insuranceData.pdf

@@ -2,7 +2,7 @@
 title: "Part 1: Exploratory Data Analysis"
 author: Sterling Cutler
 date: March 19, 2018
-output: github_document
+output: rmarkdown::github_document
 ---
 
 ## Introduction

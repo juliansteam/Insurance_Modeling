@@ -1,9 +1,9 @@
 # Insurance_Modeling
 <b>Overview</b>: Repository for projects related to linear and mixed effect modeling on insurance data
 
-<b>Upcoming Projects</b>:
-- Part 1: Intro to Ratemaking and EDA 
-- Part 2: GLM, Tweedie
-- Part 3: HGLM, LME, NLME
-- Part 4: Lasso, Ridge, ElasticNet, DecisionTreeRegressor, SVM
-- Part 5: RandomForest, GBM, XGBOOST
+<b>Table of Contents</b>:
+- Part 1: Exploratory Data Analysis (nearly done)
+- <a href="https://github.com/sterling19/Insurance_Modeling/blob/master/part02.ipynb"> Part 2: Generalized Linear Models </a>
+- Part 3: Mixed Effects Regression Models (in progress)
+- Part 4: Basic Machine Learning Models (in progress)
+- Part 5: Advanced Machine Learning Models (in progress)
